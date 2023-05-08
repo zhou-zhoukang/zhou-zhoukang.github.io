@@ -30,7 +30,7 @@ branches:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $whiteglass_travis  # Set in the settings page of your repository, as a secure variable
+  github_token: $GithubToken  # Set in the settings page of your repository, as a secure variable
   keep_history: true
   local_dir: _site
   target_branch: gh-pages
